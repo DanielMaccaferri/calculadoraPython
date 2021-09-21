@@ -73,7 +73,5 @@ class Testes(unittest.TestCase):
         result = calculador.calcular(5,5, 'multiplicacao')
         self.assertEqual(result, 25)        
 
-
-
 if __name__ == '__main__':
     main()
