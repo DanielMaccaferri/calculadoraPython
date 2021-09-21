@@ -73,8 +73,7 @@ class Testes(unittest.TestCase):
         result = calculador.calcular(5,5, 'multiplicacao')
         self.assertEqual(result, 25)        
 
-ObjetoCalculadora = Calculadora()
-print(ObjetoCalculadora.calcular(10,20,'soma'))
+
 
 if __name__ == '__main__':
     main()
